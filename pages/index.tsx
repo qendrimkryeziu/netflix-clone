@@ -29,6 +29,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
+  
       <Billboard />
       <div className="pb-40">
         <MovieList title="Trending Now" data={movies} />
